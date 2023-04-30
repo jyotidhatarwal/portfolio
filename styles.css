@@ -1,0 +1,152 @@
+
+:root {
+    --primary-color : #fb923c;
+    --secondary-color: #fff7ed;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+body {
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 900px;
+    margin: auto;
+    width:100%;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color:black;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    max-width: 140px;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    max-width: 140px;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.header {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.header .header-img {
+    max-width: 80%;
+    width: 550px;
+    margin: auto;
+    display: block;
+
+}
+
+.header .header-heading {
+    text-align: center;
+    color: black;
+    padding-top: 1rem;
+}
+
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--secondary-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: black;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer .footer-head {
+    color: black;
+    font-weight: bold;
+}
+
+.showcase-list {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.showcase-list h1 {
+    margin: 0.5rem;
+}
+
+.showcase-list p {
+    padding-bottom: 1rem;
+}
+
+.showcase-blog {
+    padding-bottom: 6rem;
+}
