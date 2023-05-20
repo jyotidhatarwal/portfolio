@@ -119,7 +119,7 @@ body {
 .footer {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem ;
     color: black;
     border-top-right-radius: 1rem;
 }
@@ -131,6 +131,14 @@ body {
 .footer .footer-head {
     color: black;
     font-weight: bold;
+}
+
+.logo-inline {
+    display: inline;
+}
+
+.media-logo {
+    width: 40px;
 }
 
 .showcase-list {
