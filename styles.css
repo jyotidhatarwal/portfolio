@@ -87,11 +87,12 @@ body {
 }
 
 .header .header-img {
-    max-width: 80%;
-    width: 550px;
+    max-width: 50%;
+    width: 200px;
+    height: 200px;
     margin: auto;
     display: block;
-
+    border-radius: 50%;
 }
 
 .header .header-heading {
